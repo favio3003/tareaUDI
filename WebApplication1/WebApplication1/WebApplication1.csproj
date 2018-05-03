@@ -150,28 +150,20 @@
   <ItemGroup>
     <Compile Include="FavioEstuvoaqui\FavioController.cs" />
     <Compile Include="FavioEstuvoaqui\Jodaaauno.cs" />
+    <Compile Include="favio\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="favio\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="gg\Class1.cs" />
     <Compile Include="gg\ggController.cs" />
-    <Compile Include="lolo\Joel1.aspx.cs">
-      <DependentUpon>Joel1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="lolo\Joel1.aspx.designer.cs">
-      <DependentUpon>Joel1.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="lolo\Joel1.aspx" />
-    <Content Include="WebForm2.aspx" />
+    <Content Include="favio\WebForm1.aspx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
