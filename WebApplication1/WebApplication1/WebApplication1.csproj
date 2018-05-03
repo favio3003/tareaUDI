@@ -154,6 +154,8 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="FavioEstuvoaqui\FavioController.cs" />
     <Compile Include="FavioEstuvoaqui\Jodaaauno.cs" />
+    <Compile Include="gg\Class1.cs" />
+    <Compile Include="gg\ggController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -188,6 +190,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\gg\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
