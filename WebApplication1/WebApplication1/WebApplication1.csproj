@@ -159,11 +159,19 @@
     </Compile>
     <Compile Include="gg\Class1.cs" />
     <Compile Include="gg\ggController.cs" />
+    <Compile Include="NewFolder1\Web1.aspx.cs">
+      <DependentUpon>Web1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\Web1.aspx.designer.cs">
+      <DependentUpon>Web1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <Content Include="favio\WebForm1.aspx" />
+    <Content Include="NewFolder1\Web1.aspx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
