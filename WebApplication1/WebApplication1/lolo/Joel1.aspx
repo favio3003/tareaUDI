@@ -15,8 +15,6 @@
             </asp:DropDownList>
             <asp:HyperLink ID="HyperLink1" runat="server">HyperLink</asp:HyperLink>
             <asp:LinkButton ID="LinkButton1" runat="server">LinkButton</asp:LinkButton>
-            <asp:ImageMap ID="ImageMap1" runat="server">
-            </asp:ImageMap>
         </div>
     </form>
 </body>
